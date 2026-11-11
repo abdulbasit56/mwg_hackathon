@@ -1,0 +1,7 @@
+streamlit
+scikit-learn==<your version>
+xgboost
+pandas
+joblib
+google-genai
+pillow

@@ -1,0 +1,30 @@
+# --- Secrets / credentials ---
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+service_account*.json
+client_secret*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
